@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.container{
+	align-items: center;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	width: 650px;
+	height: 500px;
+	background-color: #f5dae2; 
+}
+.order{
+	width: 60px;
+	height: 22px;
+	font-family: 'Raleway', sans-serif;
+	border: 2px solid #000000;
+	background-color: #fc2b6a;
+	border-radius: 5px;
+	text-align: center;
+}
+.order:hover{
+	background-color: #bd1e4e;
+}
+.info{
+	color: #000000;
+	margin-left: 40px;
+	padding: 0;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+.text{
+	text-align: center;
+	margin: 0px;
+	padding: 0;
+	font-size: 40px;
+	font-family: 'Dancing Script', cursive;
+	color: #e08282; 
+}
+.photos{
+	width: 600px;
+	height: 300px;
+	margin: 10px;
+	transition: all 0.7s linear;
+	filter: grayscale(100%);
+}
+.photos:hover{
+	filter: grayscale(0%);
+}
